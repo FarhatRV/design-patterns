@@ -1,4 +1,4 @@
-package farhatrv.design.patterns.behavioral;
+package farhatrv.design.patterns.creational;
 
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
