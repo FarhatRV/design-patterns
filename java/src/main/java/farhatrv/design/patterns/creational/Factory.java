@@ -95,11 +95,11 @@ class ComputerFactory {
     }
 }
 
-public class Factory {
+class FactoryDemo {
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(Factory.class);
-        Computer pc = ComputerFactory.getComputer("PC", "2 GB", "500 GB", "2.4 GHz");
-        Computer server = ComputerFactory.getComputer("Server", "16 GB", "1 TB", "2.9 GHz");
+        Logger logger = LoggerFactory.getLogger(FactoryDemo.class);
+        Computer pc = ComputerFactory.getComputer("Server", "2 GB", "50 GB", "2.4 GHz");
+        Computer server = ComputerFactory.getComputer("PC", "16 GB", "1 TB", "2.9 GHz");
         logger.info(String.valueOf(pc));
         logger.info(String.valueOf(server));
     }
